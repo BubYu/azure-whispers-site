@@ -6,11 +6,11 @@
     <title>My Collections</title>
     <style>
         body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f9ff;
+            color: #2c3e50;
             margin: 0;
             padding: 0;
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #f1f9ff, #c8dfee);
-            color: #2c3e50;
         }
         .header {
             background-color: #557a99;
@@ -24,17 +24,23 @@
             margin: 2rem auto;
             padding: 1rem 2rem;
             max-width: 900px;
-            background: #ffffffaa;
+            background: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
-        .content h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
+        .collection {
+            margin-bottom: 2rem;
         }
-        .content p {
-            font-size: 1.1rem;
-            line-height: 1.6;
+        .collection h2 {
+            color: #2c88d8;
+        }
+        .collection a {
+            color: #557a99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .collection a:hover {
+            text-decoration: underline;
         }
         .footer {
             margin-top: 2rem;
@@ -49,17 +55,25 @@
 <body>
     <div class="header">My Collections</div>
     <div class="container">
-        <div class="content">
-            <h2>Collection 1</h2>
-            <p>Description of the first collection. Add links or images as needed.</p>
-            
-            <h2>Collection 2</h2>
-            <p>Description of the second collection. Add more details here.</p>
-            
-            <h2>Collection 3</h2>
-            <p>Description of the third collection. Continue expanding as required.</p>
+        <div class="collection">
+            <h2><a href="a_whisper_of_ruin.html">A Whisper of Ruin</a></h2>
+            <p>Romance / Billionaire Romance: A journey of love, betrayal, and redemption.</p>
+        </div>
+        <div class="collection">
+            <h2><a href="lunar_chains.html">Lunar Chains</a></h2>
+            <p>Fantasy Romance / Werewolf: Forbidden love and uneasy alliances in a world of danger.</p>
+        </div>
+        <div class="collection">
+            <h2><a href="the_midnight_court.html">The Midnight Court</a></h2>
+            <p>YA Fantasy Romance: Deadly trials, forbidden love, and uncovering dark secrets.</p>
         </div>
     </div>
+    <div class="footer">
+        © 2024 My Collections. All Rights Reserved.
+    </div>
+</body>
+</html>
+
     <div class="footer">
         © 2024 My Collections. All Rights Reserved.
     </div>
